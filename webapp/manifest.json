@@ -1,7 +1,19 @@
 {
-        "_version": "1.12.0",
-            "sap.app": {
-                    "id": "openui5_heroku",
-                    "type": "application"
-                }
+    "_version": "1.12.0",
+    "sap.app": {
+        "applicationVersion": {
+            "version": "1.0"
+        },
+        "title": "Openui5 Heroku",
+        "id": "openui5_heroku",
+        "type": "application"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "phone": true,
+            "tablet": true
+        }
+    }
 }
