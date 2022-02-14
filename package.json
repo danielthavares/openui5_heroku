@@ -1,11 +1,12 @@
 {
   "name": "openui5_heroku",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Aplicação openui5 básica",
   "scripts": {
     "start": "ui5 serve",
-    "build": "ui5 build self-contained -a"
+    "start-prod":"node serve.js",
+    "build": "ui5 build self-contained -a",
+    "heroku-postbuild": "npm run install && npm run build"
   },
   "keywords": [],
   "author": "",
