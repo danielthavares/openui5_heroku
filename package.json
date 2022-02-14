@@ -6,7 +6,7 @@
     "dev": "ui5 serve",
     "start":"node serve.js",
     "build": "ui5 build self-contained -a",
-    "heroku-postbuild": "npm run install && npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
