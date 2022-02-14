@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Aplicação openui5 básica",
   "scripts": {
-    "start": "ui5 serve",
-    "start-prod":"node serve.js",
+    "dev": "ui5 serve",
+    "start":"node serve.js",
     "build": "ui5 build self-contained -a",
     "heroku-postbuild": "npm run install && npm run build"
   },
