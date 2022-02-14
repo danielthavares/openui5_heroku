@@ -1,0 +1,19 @@
+{
+  "name": "openui5_heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build self-contained -a"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.14.4"
+  }
+}
